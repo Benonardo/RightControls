@@ -1,12 +1,8 @@
 package net.fabricmc.example;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.loader.entrypoint.EntrypointTransformer;
-import net.fabricmc.loader.launch.common.FabricLauncherBase;
-import java.lang.reflect.InvocationTargetException;
 
 public class ExampleMod implements ModInitializer {
-
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
