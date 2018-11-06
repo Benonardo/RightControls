@@ -2,13 +2,9 @@ pluginManagement {
     repositories {
         jcenter()
         maven {
-            name = "concern"
-            url = "https://maven.concern.i.ng/"
+            name = 'Fabric'
+            url = 'http://maven.modmuss50.me/'
         }
         gradlePluginPortal()
-        maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
     }
 }
