@@ -1,11 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.benonardo.rightcontrols.mixin",
   "compatibilityLevel": "JAVA_6",
   "mixins": [
-  ],
-  "client": [
+    "RubyDungMixin"
   ],
   "injectors": {
     "defaultRequire": 1
